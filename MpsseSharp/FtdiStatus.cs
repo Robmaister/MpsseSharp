@@ -1,7 +1,7 @@
 ﻿//Copyright (c) 2015-2017 Ilium VR, Inc.
 //Licensed under the MIT License - https://raw.github.com/IliumVR/ToolsBindings/master/LICENSE
 
-namespace IliumVR.Bindings.Ftdi.Mpsse
+namespace MpsseSharp
 {
 	//TODO extract to IliumVR.Bindings.Ftdi if we bind another FTDI library
 	public enum FtdiStatus : uint

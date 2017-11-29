@@ -4,7 +4,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace IliumVR.Bindings.Ftdi.Mpsse
+namespace MpsseSharp
 {
 	[Flags]
 	public enum DeviceInfoFlags : uint

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IliumVR.Bindings.Ftdi.Mpsse.I2C
+namespace MpsseSharp.I2C
 {
 	public enum ClockRate
 	{

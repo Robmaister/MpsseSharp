@@ -4,16 +4,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IliumVR.Bindings.Win32.SetupApi
+namespace MpsseSharp.I2C
 {
-	[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto, Pack = 1)]
-	internal struct SetupDeviceInterfaceDetailData
+	[Flags]
+	public enum ChannelOptions
 	{
-		internal int cbSize;
-		internal char DevicePath;
+		DisableThreePhaseClocking	= 0x0001,
+		EnableDriveOnlyZero			= 0x0002
 	}
 }

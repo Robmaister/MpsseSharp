@@ -4,7 +4,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace IliumVR.Bindings.Ftdi.Mpsse.I2C
+namespace MpsseSharp.I2C
 {
 	[StructLayout(LayoutKind.Sequential)]
 	public struct ChannelConfig

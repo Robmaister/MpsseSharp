@@ -4,7 +4,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace IliumVR.Bindings.Ftdi.Mpsse.I2C
+namespace MpsseSharp.I2C
 {
 	/// <summary>
 	/// A channel class for communicating with I2C devices over MPSSE.
